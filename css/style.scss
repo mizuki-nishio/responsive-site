@@ -24,20 +24,20 @@ body{
 
 //header
 header {
-    .header-image{
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        height: 250px;
-        width: auto;
+    .image{
+        background-image: url("../images/glasses-1.jpg");
+        height:250px;
+        width:100%;
+        background-size:cover;
+        background-position:center center;
     }
     @media(min-width: 1025px){
-        .header-image{
-            display: block;
-            margin-right: auto;
-            margin-left: auto;
-            height: 500px;
-            width: auto;
+        .image{
+            background-image:image-url("../images/glasses-1.jpg");
+            height:500px;
+            width:100%;
+            background-size:cover;
+            background-position:center center;
         }
     }
     .introduction{

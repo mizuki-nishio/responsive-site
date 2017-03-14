@@ -11,19 +11,19 @@ body {
 .text-center {
   text-align: center; }
 
-header .header-image {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+header .image {
+  background-image: url("../images/glasses-1.jpg");
   height: 250px;
-  width: auto; }
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
 @media (min-width: 1025px) {
-  header .header-image {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+  header .image {
+    background-image: url('/images/../images/glasses-1.jpg');
     height: 500px;
-    width: auto; } }
+    width: 100%;
+    background-size: cover;
+    background-position: center center; } }
 header .introduction {
   margin: 30px 30px 10px; }
 header h3 {
